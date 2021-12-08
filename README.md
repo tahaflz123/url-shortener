@@ -6,6 +6,7 @@ POST http://www.localhost:8080/user/signup creates a user and returns created us
 request body {username, password}
 
 POST http://www.localhost:8080/user/{userId}/url/create?url={yourUrl} 
+
 returns shortened url like http://www.localhost:8080/s/xxxxxxxxxxxx 
 
 
